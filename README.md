@@ -35,12 +35,13 @@ bash scripts/sweep_into/run_ERLVLM.sh
 ## Citation
 If you use this repo in your research, please consider citing the paper as follows:
 ```
-@InProceedings{
-    luu2025erlvlm,
+@inproceedings{
+    luu2025enhancing,
     title={Enhancing Rating-Based Reinforcement Learning to Effectively Leverage Feedback from Large Vision-Language Models},
-    author={Tung Minh Luu , Younghwan Lee, Donghoon Lee, Sunho Kim, Min Jun Kim, Chang D. Yoo},
-    booktitle={Proceedings of the 42th International Conference on Machine Learning},
-    year={2025}
+    author={Tung Minh Luu and Younghwan Lee and Donghoon Lee and Sunho Kim and Min Jun Kim and Chang D. Yoo},
+    booktitle={Forty-second International Conference on Machine Learning},
+    year={2025},
+    url={https://openreview.net/forum?id=k77bq8AJVy}
 }
 ```
 
