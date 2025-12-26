@@ -49,7 +49,7 @@ save_video: false
 run_group: ''
 exp_name: ${run_group}_s${seed}
 notes: ''
-save_dir: '/mnt/workspace/hrl_bench/preference_rl/Rating-based-Reinforcement-Learning/logs_metaworld/${env}'
+save_dir: './logs_metaworld/${env}'
 
 # debug
 debug: false
@@ -58,7 +58,7 @@ debug: false
 seed: 1
 
 # Environment
-env: dog_stand
+env: metaworld_drawer-open-v2
 gradient_update: 1
 
 num_ratings: 2
