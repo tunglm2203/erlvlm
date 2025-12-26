@@ -161,8 +161,6 @@ pyzmq==26.2.1
 referencing==0.36.2
 regex==2024.11.6
 requests==2.32.3
-rfc3339-validator==0.1.4
-rfc3986-validator==0.1.1
 rich==13.9.4
 rpds-py==0.22.3
 rsa==4.9
