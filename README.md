@@ -28,7 +28,7 @@ pip install -e .
 ## Cached VLM rating labels
 - We provide cached VLM rating labels collected during our experiments. Labels are saved only at VLM query steps (i.e., at fixed intervals during training).
 - You can download the cached labels from this [Google Drive link](https://drive.google.com/drive/folders/1nL7PncAk98lPIpWDwzP57ypDb2jCY6gl?usp=sharing).
-- After downloading, unzip the files to a directory of your choice and update the `CACHED_QUERY` path in the provided bash scripts accordingly.
+- After downloading, unzip the files to a directory of your choice and update the `CACHED_QUERY` path, and set `use_cached=True` in the provided bash scripts accordingly.
 
 ## Run experiments
 ```
