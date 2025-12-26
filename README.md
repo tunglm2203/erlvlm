@@ -6,7 +6,7 @@ Min Jun Kim, Chang D. Yoo**
 <br>
 KAIST, South Korea
 <br>
-[[arXiv]](https://www.arxiv.org/abs/2506.12822) [[Website]](https://erlvlm2025.github.io/) 
+[[Paper]](https://proceedings.mlr.press/v267/luu25a.html) [[Website]](https://erlvlm2025.github.io/) 
 
 
 ## Overview
