@@ -55,8 +55,8 @@ def setup_wandb(config):
     )
     os.makedirs(log_dir, exist_ok=True)
 
-    project = "RLHF-METAWORLD"
-    entity = "uaimlab"
+    project = "YOUR_PROJECT"
+    entity = "your_entity"
     tags = [config.env]
 
     wandb_offline = 'disabled' if config.debug else 'online'
