@@ -150,7 +150,6 @@ pydantic_core==2.27.1
 pydub==0.25.1
 Pygments==2.18.0
 PyOpenGL==3.1.7
-pyparsing @ file:///croot/pyparsing_1731445506121/work
 PySocks==1.7.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
