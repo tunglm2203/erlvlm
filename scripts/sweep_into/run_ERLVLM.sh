@@ -4,7 +4,7 @@ GPU_ID=0
 
 ENV_NAME="metaworld_sweep-into-v2"
 
-CACHED_QUERY=""
+CACHED_QUERY="path_to_your_query_cached"
 
 WANDB_GROUP="erlvlm_${ENV_NAME}"
 
@@ -19,7 +19,7 @@ CUDA_VISIBLE_DEVICES=$GPU_ID python train_PEBBLE_VLM.py \
   batch_stratify=True \
   run_group=$WANDB_GROUP \
   n_processes_query=5 \
-  use_cached=False \
+  use_cached=True \
   query_cached=$CACHED_QUERY \
-  seed=0 \
+  seed=1 \
   debug=False
