@@ -25,6 +25,11 @@ pip install -e .
 1. Obtain a Gemini API key: Follow the instructions at https://aistudio.google.com/app/apikey
 2. Enable parallel querying: We support querying Gemini in parallel using multiple keys, which can speed up the querying process. Place your API keys in `gemini_keys.py` and adjust parameters `n_processes_query` accordingly.
 
+## Cached VLM rating labels
+- We provide cached VLM rating labels collected during our experiments. Labels are saved only at VLM query steps (i.e., at fixed intervals during training).
+- You can download the cached labels from this [Google Drive link](https://drive.google.com/drive/folders/1nL7PncAk98lPIpWDwzP57ypDb2jCY6gl?usp=sharing).
+- After downloading, unzip the files to a directory of your choice and update the `CACHED_QUERY` path in the provided bash scripts accordingly.
+
 ## Run experiments
 ```
 bash scripts/open_drawer/run_ERLVLM.sh
